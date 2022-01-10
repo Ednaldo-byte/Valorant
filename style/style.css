@@ -113,6 +113,7 @@ footer .social_media img{
   background: #ff465669;
   filter: blur(70px);
   border-radius: 50%;
+  animation: 2s lights infinite alternate;
 
   opacity: 50%;
 
@@ -130,4 +131,15 @@ footer .social_media img{
 #light2{
   left: 1260px;
   top: 87px;
+}
+
+@keyframes lights{
+  from{
+    opacity: 50%;
+    transform: translateX(-50px);
+  }
+  to{
+    opacity: 100%;
+    transform: rotateX(50px);
+  }
 }
