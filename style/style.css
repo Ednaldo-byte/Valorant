@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+:root{
+  --red-light: #FF4656;
+  --white: #ffffff;
+  --dark: #1f2326;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--white);
+}
+
+body{
+  padding: 0 15rem;
+  background: url(../assets/background.png);
+  backdrop-filter: brightness(10%);
+
+  overflow: hidden;
+}
+
+header{
+  width: 100%;
+  height: auto;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header span{
+  font-size: 2.4rem;
+}
+main .content{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .content .persons h1{
+  margin-bottom: 3rem;
+  font-size: 5.6rem;
+  color: var(--dark);
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 var(--white), 2px -2px 0 var(--white), -2px 2px 0 var(--white), -2px -2px 0 var(--white), 2px 0px 0 var(--white), 0px 2px 0 var(--white), -2px 0px 0 var(--white), 0px -2px 0 var(--white);
+}
+main .content .persons .characters{
+  list-style: none;
+  display: flex;
+}
+main .content .persons .characters div{
+  width: 17rem;
+  margin: 2rem;
+}
+main .content .persons .characters div img{
+  object-fit: cover;
+  background: var(--red-light);
+  border: 2px solid var(--white);
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+main .content .persons .characters div h2{
+  text-align: center;
+  font-size: 2.4rem;
+  color: var(--red-light);
+}
+main .content .persons .characters div::after{
+  content: ' ';
+  width: 17rem;
+  height: 17rem;
+  border: 3px solid var(--white);
+  display: block;
+  z-index: 1;
+  position: absolute;
+
+  transform: translateY(-21rem);
+
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+main .content .persons .characters div::before{
+  content: ' ';
+  width: 17rem;
+  height: 17rem;
+  border: 3px solid var(--white);
+  display: block;
+  z-index: -1;
+  position: absolute;
+
+  transform: translate(-2rem, -2rem);
+
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%, 0 10%);
+}
+main #principal{
+  width: 49.5rem;
+}
+
+footer{
+  position: fixed;
+  bottom: 2rem;
+}
+footer .social_media img{
+  margin-right: 4rem;
+}
+
+.light{
+  width: 43rem;
+  height: 27rem;
+  background: #ff465669;
+  filter: blur(70px);
+  border-radius: 50%;
+
+  opacity: 50%;
+
+  position: absolute;
+  display: block;
+  z-index: -1;
+}
+
+#light1{
+  left: -30px;
+  top: 267px;
+  transform: rotate(312deg);
+}
+
+#light2{
+  left: 1260px;
+  top: 87px;
+}
