@@ -5,7 +5,7 @@
   Projeto desenvolvido para fins de prática e desenvolvimento dos conhecimentos de HTML e CSS. 
   - Projeto responsivo
   - Algumas coisas foram modificadas em relação ao projeto original no Figma
-  <p>Para ver o projeto no Figma, <a href="https://www.figma.com/file/OFPmaR4BYJd7QeChEOzHgL/Desafios---Codel%C3%A2ndia-(Copy)?node-id=7539%3A2">clique aqui</a>.</p>
+  <p>Para ver o projeto no Figma, <a href="https://www.figma.com/file/OFPmaR4BYJd7QeChEOzHgL/Desafios---Codel%C3%A2ndia-(Copy)?node-id=10048%3A2">clique aqui</a>.</p>
 
   ## 👨‍💻 Tecnologias
   As tecnologias usadas nesse projeto foram:
